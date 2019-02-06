@@ -1,0 +1,21 @@
+{
+ "title": "control+; -> enter",
+ "rules": [
+  {
+	"description": "control+; -> enter",
+	"manipulators": [
+	  { "type": "basic",
+		"from": {
+		  "key_code": "semicolon",
+		  "modifiers": { "mandatory": [ "left_control" ] }
+		},
+		"to": [
+		  {
+			"key_code": "return_or_enter"
+		  }
+		]
+	  }
+	]
+  }
+ ]
+}
