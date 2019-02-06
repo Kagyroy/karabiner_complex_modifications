@@ -1,8 +1,0 @@
-{
-  "title": "jkhl+英字キー長押し移動",
-  "rules": [
-    {
-      "description": "英数長押し＋jkhlでvimライクの移動"
-    }
-  ]
-}

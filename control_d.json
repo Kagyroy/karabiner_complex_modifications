@@ -1,0 +1,63 @@
+{
+  "title": "(delete)control + d",
+  "rules": [
+{
+  "description": "eisu + d -> control + d",
+  "manipulators": [
+    {
+      "type": "basic",
+      "from": {
+        "key_code": "international5",
+        "modifiers": {
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "fn",
+          "lazy": true
+        }
+      ],
+      "to_if_alone": [
+        {"key_code": "japanese_eisuu"}
+      ]
+    },
+    {
+      "type": "basic",
+      "from": {
+        "key_code": "lang2",
+        "modifiers": {
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "fn",
+          "lazy": true
+        }
+      ],
+      "to_if_alone": [
+        {"key_code": "japanese_eisuu"}
+      ]
+    },
+    {
+      "type": "basic",
+      "from": {
+        "key_code": "d",
+        "modifiers": {
+          "mandatory": ["fn"],
+          "optional": ["caps_lock"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "d",
+          "modifiers": ["control"]
+        }
+      ]
+    }
+  ]
+}
+]
+}
+
