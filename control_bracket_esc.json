@@ -1,0 +1,25 @@
+{
+ "title": "control + [ でescapeに入りつつ英数モードにするcontrol + [ でescapeに入りつつ英数モードにする",
+ "rules": [
+  {
+	"description": "control + [ でescapeに入りつつ英数モードにする",
+	"manipulators": [
+	  {
+		"type": "basic",
+		"from": {
+		  "simultaneous": [
+			{ "key_code": "left_control" },
+			{ "key_code": "open_bracket" }
+		  ],
+		  "simultaneous_options": {
+			"detect_key_down_uninterruptedly": true 
+		  }
+		},
+		"to": [
+		  {"key_code": "escape"}
+		]
+	  }
+	]
+  }
+ ]
+}
