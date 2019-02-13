@@ -1,0 +1,22 @@
+{
+ "title": "Move to beginning of the line",
+ "rules": [
+  {
+	"description": "Move to beginning of the line",
+	"manipulators": [
+	  { "type": "basic",
+		"from": {
+		  "key_code": "i",
+		  "modifiers": { "mandatory": [ "left_control" ] }
+		},
+		"to": [
+		  {
+			"key_code": "up_arrow",
+			"modifiers": ["left_gui"]
+		  }
+		]
+	  }
+	]
+  }
+ ]
+}

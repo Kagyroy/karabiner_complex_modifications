@@ -69,7 +69,7 @@
             {
               "key_code": "return_or_enter",
               "modifiers": [
-                "control"
+                "return_or_enter"
               ]
             }
           ]

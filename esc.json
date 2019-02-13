@@ -69,7 +69,7 @@
             {
               "key_code": "escape",
               "modifiers": [
-                "control"
+                "escape"
               ]
             }
           ]
