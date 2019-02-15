@@ -1,0 +1,22 @@
+{
+ "title": "control+; -> enter + cmd",
+ "rules": [
+  {
+	"description": "control+; -> enter + cmd",
+	"manipulators": [
+	  { "type": "basic",
+		"from": {
+		  "key_code": "semicolon",
+		  "modifiers": { "mandatory": [ "left_control" ] }
+		},
+		"to": [
+		  {
+			"key_code": "return_or_enter",
+			"modifiers": { "mandatory": ["left_gui"] }
+		  }
+		]
+	  }
+	]
+  }
+ ]
+}
